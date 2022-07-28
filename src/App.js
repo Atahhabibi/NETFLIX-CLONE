@@ -3,11 +3,13 @@ import Row from './Row';
 import requests from './requests';
 import axios from './axios';
 import Banner from './Banner';
+import Nav from './Nav';
 
 function App() {
   return (
     <div className="App">
       {/*Nav*/}
+      <Nav />
       {/*Banner*/}
       <Banner />
       
